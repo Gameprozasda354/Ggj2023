@@ -1,0 +1,491 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22621.1105; Version 2009; 64bit' Language: 'en' Physical Memory: 16204 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Omer/OneDrive/Desktop/GGJ game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52310
+Successfully changed project path to: C:/Users/Omer/OneDrive/Desktop/GGJ game
+C:/Users/Omer/OneDrive/Desktop/GGJ game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Omer/OneDrive/Desktop/GGJ game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   26.21.14.4223
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003150 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.234 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2234ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (441ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1031ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 5.095900 ms (FindLiveObjects: 0.427300 ms CreateObjectMapping: 0.164900 ms MarkObjects: 4.346200 ms  DeleteObjects: 0.154400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Houses/SmallHouse_V1.prefab
+  artifactKey: Guid(6da0ee3d722465e4386d398cb629f9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Houses/SmallHouse_V1.prefab using Guid(6da0ee3d722465e4386d398cb629f9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd6b7bdb808126e3b9dae32319233f6') in 0.131021 seconds 
+  Import took 0.134665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo
+  artifactKey: Guid(7852c583211389c4d8687b3abdd060e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo using Guid(7852c583211389c4d8687b3abdd060e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e8474454b906c90203540ee5a73687') in 0.006205 seconds 
+  Import took 0.009702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Houses/House_V6.prefab
+  artifactKey: Guid(dda06eb7623a5b64595da60e92820cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Houses/House_V6.prefab using Guid(dda06eb7623a5b64595da60e92820cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661445dccf0b001d3ecb1a01a7e66e5e') in 0.066239 seconds 
+  Import took 0.072858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Houses/BigCafe.prefab
+  artifactKey: Guid(69cfb71035be1c14897faf9b3131953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Houses/BigCafe.prefab using Guid(69cfb71035be1c14897faf9b3131953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cb7bac7484098361f1434d0cf61ebe') in 0.034674 seconds 
+  Import took 0.039862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Houses/House_V5.prefab
+  artifactKey: Guid(4b434d4542ce264478a2595715b0c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Houses/House_V5.prefab using Guid(4b434d4542ce264478a2595715b0c26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7fcd67298a021d23145f7f49782164') in 0.044730 seconds 
+  Import took 0.049602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Houses/BigCafe.prefab
+  artifactKey: Guid(69cfb71035be1c14897faf9b3131953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Houses/BigCafe.prefab using Guid(69cfb71035be1c14897faf9b3131953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cb7bac7484098361f1434d0cf61ebe') in 0.025587 seconds 
+  Import took 0.031235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/ground.mat
+  artifactKey: Guid(42fada406dc1f08479e8ec2f4a955252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/ground.mat using Guid(42fada406dc1f08479e8ec2f4a955252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9cb39bd52a62c49503ddf1d512dd24') in 0.041779 seconds 
+  Import took 0.045928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Houses/House_V1.prefab
+  artifactKey: Guid(2a5b530902dc17f4a8bdbef8787dbbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Houses/House_V1.prefab using Guid(2a5b530902dc17f4a8bdbef8787dbbe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12267b7ec62d3e6afe39624806ea108') in 0.035937 seconds 
+  Import took 0.040360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Houses
+  artifactKey: Guid(d8c411046cdf8014191bb2263c1c6108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Houses using Guid(d8c411046cdf8014191bb2263c1c6108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17990c8bae3d25f52bded26825e2e3c2') in 0.007704 seconds 
+  Import took 0.010784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.063248 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets
+  artifactKey: Guid(c2ac32013e4dfac488bb42984074ba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets using Guid(c2ac32013e4dfac488bb42984074ba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7c42b49526ec1104b9cfba724bcb16') in 0.007733 seconds 
+  Import took 0.011838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.465402 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece
+  artifactKey: Guid(f600fd900e9eedd45afff10cb2814857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece using Guid(f600fd900e9eedd45afff10cb2814857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22552ad219220266494c24026e557e80') in 0.007097 seconds 
+  Import took 0.020680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.677822 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab
+  artifactKey: Guid(4d19874788cfbf849a3ffe21e0e2d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab using Guid(4d19874788cfbf849a3ffe21e0e2d0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d9b97c64ef16e705409be862a34452') in 0.008072 seconds 
+  Import took 0.011325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Balcon_V1.prefab
+  artifactKey: Guid(9791f40a2e4946942aa7587dcaee53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Balcon_V1.prefab using Guid(9791f40a2e4946942aa7587dcaee53f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673dce2ac75cd30181f73ed7217d1f85') in 0.016121 seconds 
+  Import took 0.020002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R1.prefab
+  artifactKey: Guid(b15d64a01c3bf53438095327ff2c00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R1.prefab using Guid(b15d64a01c3bf53438095327ff2c00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ecee652c825a4736f6c5948dc69286') in 0.029789 seconds 
+  Import took 0.035533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R4.prefab
+  artifactKey: Guid(84674ce7539fa4e419e961417c660d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R4.prefab using Guid(84674ce7539fa4e419e961417c660d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd343a1f8652ba38d73b06d3294d1f7') in 0.023330 seconds 
+  Import took 0.028379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Xanochka.prefab
+  artifactKey: Guid(8541971cf6b2c7b41a5b6def4902e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Xanochka.prefab using Guid(8541971cf6b2c7b41a5b6def4902e527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ef67f9bb71548ada5596422e46b49c') in 0.020736 seconds 
+  Import took 0.024700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R3.prefab
+  artifactKey: Guid(079d9ba331b073d4aa68c78dbeab1f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R3.prefab using Guid(079d9ba331b073d4aa68c78dbeab1f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b2fed2f51ab43847fe2737247309ed') in 0.018243 seconds 
+  Import took 0.023466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R.prefab
+  artifactKey: Guid(fa38dbe0cd478194db79f8bac6e54821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R.prefab using Guid(fa38dbe0cd478194db79f8bac6e54821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfe5d30a9574cd51c37fc3cef5252e8') in 0.015134 seconds 
+  Import took 0.020066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Side_house_Piece.prefab
+  artifactKey: Guid(9e2e2f3e663f3fb4da40095ceaad7522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Side_house_Piece.prefab using Guid(9e2e2f3e663f3fb4da40095ceaad7522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c39e95684965b4275f7f0bf962d326') in 0.018835 seconds 
+  Import took 0.022898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/HalfRoof_V2.prefab
+  artifactKey: Guid(03e7725c0c5882d458a74f1a65236e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/HalfRoof_V2.prefab using Guid(03e7725c0c5882d458a74f1a65236e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e04fb50bb7e7c184ecbff230358d1e') in 0.016430 seconds 
+  Import took 0.020281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_Wall_V1.prefab
+  artifactKey: Guid(c971fe87fe91ed543949550c2ca44924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_Wall_V1.prefab using Guid(c971fe87fe91ed543949550c2ca44924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fc17aa9c2a5be53799ccd673b48052') in 0.016157 seconds 
+  Import took 0.019863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Xanochka_T1.prefab
+  artifactKey: Guid(f11e3961c5045164fb1bc8c1fe639b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Xanochka_T1.prefab using Guid(f11e3961c5045164fb1bc8c1fe639b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2575349884a6c6fb005da694ad045e87') in 0.017637 seconds 
+  Import took 0.021186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_V3.prefab
+  artifactKey: Guid(e7f0c4dcc09e3e144921e86fbfcd79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_V3.prefab using Guid(e7f0c4dcc09e3e144921e86fbfcd79bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559d6a5066b935f592b072b74a61855a') in 0.019452 seconds 
+  Import took 0.021964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Balcon_V3.prefab
+  artifactKey: Guid(c65d923781f04f043a69e9d876bbd8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Balcon_V3.prefab using Guid(c65d923781f04f043a69e9d876bbd8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e90e040a5617c61d0617280695c61f5') in 0.015710 seconds 
+  Import took 0.019153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Balcon_V2.prefab
+  artifactKey: Guid(2540766d0b7944f408967cae673c2246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Balcon_V2.prefab using Guid(2540766d0b7944f408967cae673c2246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6475ed4b21d1e7f91e0c3d58a67cb9f2') in 0.015888 seconds 
+  Import took 0.019219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_Wall_V3.prefab
+  artifactKey: Guid(ae2bd00ec6ea10c4fa401ba34e20e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_Wall_V3.prefab using Guid(ae2bd00ec6ea10c4fa401ba34e20e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4b865dacc866af8418d28e5c73130a') in 0.017289 seconds 
+  Import took 0.021413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_20_Doorway.prefab
+  artifactKey: Guid(b4c079a081a4082439ef925111470eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_20_Doorway.prefab using Guid(b4c079a081a4082439ef925111470eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4f1fb782c5924b817f7ce9497570bb') in 0.020259 seconds 
+  Import took 0.025292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R5.prefab
+  artifactKey: Guid(2fa040f9eb794dd41b704495765e4270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R5.prefab using Guid(2fa040f9eb794dd41b704495765e4270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8536fb3d11ca1a2ce00a27324d80e547') in 0.019067 seconds 
+  Import took 0.022575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R2.prefab
+  artifactKey: Guid(7adc9cfc68ef13147a40eeadcdf05ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_Piece_R2.prefab using Guid(7adc9cfc68ef13147a40eeadcdf05ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f270c8fb78dd4a78ff31621bc9e701e1') in 0.018562 seconds 
+  Import took 0.021861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_15_Doorway.prefab
+  artifactKey: Guid(ec9de8ce4401ee24d96b40d246b2f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Wall_15_Doorway.prefab using Guid(ec9de8ce4401ee24d96b40d246b2f4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb0a23424db8e7dff49e655dca9860a') in 0.019602 seconds 
+  Import took 0.025035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Ready_House_V1.prefab
+  artifactKey: Guid(aeb7fa4fbb7ebb740a6caf12a3966599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Ready_House_V1.prefab using Guid(aeb7fa4fbb7ebb740a6caf12a3966599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77af7e858cfdf270d9ad6e4d730f8f10') in 0.019447 seconds 
+  Import took 0.023175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_Modular_V1.prefab
+  artifactKey: Guid(77313c387ca91f7478431631ef8d9c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_Modular_V1.prefab using Guid(77313c387ca91f7478431631ef8d9c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52ffa09b436c42e47a5c3eb2b56651e') in 0.022988 seconds 
+  Import took 0.027964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Makchara.prefab
+  artifactKey: Guid(a5244ac95cceb7040b61c162ad84cac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Makchara.prefab using Guid(a5244ac95cceb7040b61c162ad84cac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eeb61a96390c31f804623b288ecdd8') in 0.017265 seconds 
+  Import took 0.021288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Stair_V2.prefab
+  artifactKey: Guid(f3b50c5960b2c744db37c59400cf665e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Stair_V2.prefab using Guid(f3b50c5960b2c744db37c59400cf665e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bf1ba353f2df13eb7b6a733ebd75cb') in 0.018282 seconds 
+  Import took 0.021633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_V2.prefab
+  artifactKey: Guid(7dfa9d1f2f185294f9ea6d8695200684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_V2.prefab using Guid(7dfa9d1f2f185294f9ea6d8695200684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6502b9a78418838406ceab7582b13049') in 0.016410 seconds 
+  Import took 0.020022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_Modular_V3.prefab
+  artifactKey: Guid(47caae99f1d61cb43a22f1c1123c339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_Modular_V3.prefab using Guid(47caae99f1d61cb43a22f1c1123c339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e6d05be08a395f452c900a51778771') in 0.017674 seconds 
+  Import took 0.020947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_V1.prefab
+  artifactKey: Guid(2009592f49fc1ef4aaa516a05f635489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_V1.prefab using Guid(2009592f49fc1ef4aaa516a05f635489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7037d48e56caf8e52d185c5a17ba2c5b') in 0.014837 seconds 
+  Import took 0.018261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_V2_Half.prefab
+  artifactKey: Guid(293ea30b872db9b40a520ae15f6d0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Roof_V2_Half.prefab using Guid(293ea30b872db9b40a520ae15f6d0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07386671c045ce681942b4d47315459b') in 0.017158 seconds 
+  Import took 0.020473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/HalfRoof_V1.prefab
+  artifactKey: Guid(f3e0bca5020d7ec47ad4e49c1fbcb535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/HalfRoof_V1.prefab using Guid(f3e0bca5020d7ec47ad4e49c1fbcb535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e7394b4e172f71ede945193338999e') in 0.017574 seconds 
+  Import took 0.020941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Side_house_Piece_V1.prefab
+  artifactKey: Guid(a105f0d851c5a19419b22560f91a8387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Side_house_Piece_V1.prefab using Guid(a105f0d851c5a19419b22560f91a8387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aca4ac7b4e9762637cc58af7b040ceb') in 0.016491 seconds 
+  Import took 0.021529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Stair_V1.prefab
+  artifactKey: Guid(e8dd96a6574346c409a118cb1d20ad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/Assets/Modular_Big_Piece/Prefab/Stair_V1.prefab using Guid(e8dd96a6574346c409a118cb1d20ad13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25ff54514c8c7d0c1e848eaffcde912') in 0.016243 seconds 
+  Import took 0.020164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.622146 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/OutdoorsScene
+  artifactKey: Guid(58e415addd5e85a4fb130ec543fb7a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/OutdoorsScene using Guid(58e415addd5e85a4fb130ec543fb7a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5353f63ce742f1db5856d19802dfbd8') in 0.008658 seconds 
+  Import took 0.023301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000807 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/OutdoorsScene
+  artifactKey: Guid(58e415addd5e85a4fb130ec543fb7a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/OutdoorsScene using Guid(58e415addd5e85a4fb130ec543fb7a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5353f63ce742f1db5856d19802dfbd8') in 0.003946 seconds 
+  Import took 0.007607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.410466 seconds.
+  path: Assets/Erbeilo3d_StylizePack_Demo/OutdoorsScene/Showcase_House 1.unity
+  artifactKey: Guid(052dbc0eab81c864d8156b68a420f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Erbeilo3d_StylizePack_Demo/OutdoorsScene/Showcase_House 1.unity using Guid(052dbc0eab81c864d8156b68a420f6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0adfbced282a666fe13135decce2bb4b') in 0.009104 seconds 
+  Import took 0.013248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.545665 seconds.
+  path: Assets/GreenForest/Scences/Scene.unity
+  artifactKey: Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreenForest/Scences/Scene.unity using Guid(6e434770a7e9af947923dc9bbc63f752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df4fe9cae3470a8c6cbac9512be0f4d') in 0.008597 seconds 
+  Import took 0.012042 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
